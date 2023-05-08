@@ -1,0 +1,16 @@
+/home/codenovic/eBPF/relop2/bin/debug/deps/bpf_sys-bf8dd5539c243b46.rmeta: /home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/lib.rs /home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/headers.rs /home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/perf_reader.rs /home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/uname.rs /home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/type_gen.rs /home/codenovic/eBPF/relop2/bin/debug/build/bpf-sys-a49883f6baedee08/out/perf_reader_bindings.rs /home/codenovic/eBPF/relop2/bin/debug/build/bpf-sys-a49883f6baedee08/out/libbpf_bindings.rs /home/codenovic/eBPF/relop2/bin/debug/build/bpf-sys-a49883f6baedee08/out/libbpf_map_def.rs
+
+/home/codenovic/eBPF/relop2/bin/debug/deps/libbpf_sys-bf8dd5539c243b46.rlib: /home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/lib.rs /home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/headers.rs /home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/perf_reader.rs /home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/uname.rs /home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/type_gen.rs /home/codenovic/eBPF/relop2/bin/debug/build/bpf-sys-a49883f6baedee08/out/perf_reader_bindings.rs /home/codenovic/eBPF/relop2/bin/debug/build/bpf-sys-a49883f6baedee08/out/libbpf_bindings.rs /home/codenovic/eBPF/relop2/bin/debug/build/bpf-sys-a49883f6baedee08/out/libbpf_map_def.rs
+
+/home/codenovic/eBPF/relop2/bin/debug/deps/bpf_sys-bf8dd5539c243b46.d: /home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/lib.rs /home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/headers.rs /home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/perf_reader.rs /home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/uname.rs /home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/type_gen.rs /home/codenovic/eBPF/relop2/bin/debug/build/bpf-sys-a49883f6baedee08/out/perf_reader_bindings.rs /home/codenovic/eBPF/relop2/bin/debug/build/bpf-sys-a49883f6baedee08/out/libbpf_bindings.rs /home/codenovic/eBPF/relop2/bin/debug/build/bpf-sys-a49883f6baedee08/out/libbpf_map_def.rs
+
+/home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/lib.rs:
+/home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/headers.rs:
+/home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/perf_reader.rs:
+/home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/uname.rs:
+/home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/src/type_gen.rs:
+/home/codenovic/eBPF/relop2/bin/debug/build/bpf-sys-a49883f6baedee08/out/perf_reader_bindings.rs:
+/home/codenovic/eBPF/relop2/bin/debug/build/bpf-sys-a49883f6baedee08/out/libbpf_bindings.rs:
+/home/codenovic/eBPF/relop2/bin/debug/build/bpf-sys-a49883f6baedee08/out/libbpf_map_def.rs:
+
+# env-dep:OUT_DIR=/home/codenovic/eBPF/relop2/bin/debug/build/bpf-sys-a49883f6baedee08/out

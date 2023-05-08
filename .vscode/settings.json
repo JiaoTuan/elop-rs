@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "bpf_helpers.h": "c",
+        "bpf_helper_defs.h": "c",
+        "vmlinux.h": "c",
+        "libbpf.h": "c",
+        "bpf_tracing.h": "c",
+        "bpf.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
+        "clang-diagnostic-error",
+        "clang-diagnostic-error",
+        "clang-diagnostic-implicit-int"
+    ],
+    "rust-analyzer.linkedProjects": [
+        "./Cargo.toml",
+        "./Cargo.toml"
+    ],
+    "rust-analyzer.showUnlinkedFileNotification": false
+}

@@ -1,0 +1,101 @@
+cargo:rustc-link-search=native=/home/codenovic/eBPF/relop2/bin/debug/build/bpf-sys-a49883f6baedee08/out
+cargo:rustc-link-lib=static=bpf
+cargo:rustc-link-lib=elf
+cargo:rustc-link-lib=z
+cargo:rerun-if-changed=libbpf/
+cargo:rerun-if-changed=libbpf/src/bpf.c
+cargo:rerun-if-changed=libbpf/src/bpf_prog_linfo.c
+cargo:rerun-if-changed=libbpf/src/btf.c
+cargo:rerun-if-changed=libbpf/src/btf_dump.c
+cargo:rerun-if-changed=libbpf/src/gen_loader.c
+cargo:rerun-if-changed=libbpf/src/hashmap.c
+cargo:rerun-if-changed=libbpf/src/libbpf.c
+cargo:rerun-if-changed=libbpf/src/libbpf_errno.c
+cargo:rerun-if-changed=libbpf/src/libbpf_probes.c
+cargo:rerun-if-changed=libbpf/src/linker.c
+cargo:rerun-if-changed=libbpf/src/netlink.c
+cargo:rerun-if-changed=libbpf/src/nlattr.c
+cargo:rerun-if-changed=libbpf/src/ringbuf.c
+cargo:rerun-if-changed=libbpf/src/str_error.c
+cargo:rerun-if-changed=libbpf/src/strset.c
+cargo:rerun-if-changed=libbpf/src/xsk.c
+cargo:rerun-if-changed=libbpf/include/asm/barrier.h
+cargo:rerun-if-changed=libbpf/include/linux/compiler.h
+cargo:rerun-if-changed=libbpf/include/linux/err.h
+cargo:rerun-if-changed=libbpf/include/linux/filter.h
+cargo:rerun-if-changed=libbpf/include/linux/kernel.h
+cargo:rerun-if-changed=libbpf/include/linux/list.h
+cargo:rerun-if-changed=libbpf/include/linux/overflow.h
+cargo:rerun-if-changed=libbpf/include/linux/ring_buffer.h
+cargo:rerun-if-changed=libbpf/include/linux/types.h
+cargo:rerun-if-changed=libbpf/include/uapi/linux/bpf.h
+cargo:rerun-if-changed=libbpf/include/uapi/linux/bpf_common.h
+cargo:rerun-if-changed=libbpf/include/uapi/linux/btf.h
+cargo:rerun-if-changed=libbpf/include/uapi/linux/if_link.h
+cargo:rerun-if-changed=libbpf/include/uapi/linux/if_xdp.h
+cargo:rerun-if-changed=libbpf/include/uapi/linux/netlink.h
+cargo:rerun-if-changed=libbpf/include/uapi/linux/pkt_cls.h
+cargo:rerun-if-changed=libbpf/include/uapi/linux/pkt_sched.h
+cargo:rerun-if-changed=libbpf/src/bpf.h
+cargo:rerun-if-changed=libbpf/src/bpf_core_read.h
+cargo:rerun-if-changed=libbpf/src/bpf_endian.h
+cargo:rerun-if-changed=libbpf/src/bpf_gen_internal.h
+cargo:rerun-if-changed=libbpf/src/bpf_helper_defs.h
+cargo:rerun-if-changed=libbpf/src/bpf_helpers.h
+cargo:rerun-if-changed=libbpf/src/bpf_tracing.h
+cargo:rerun-if-changed=libbpf/src/btf.h
+cargo:rerun-if-changed=libbpf/src/hashmap.h
+cargo:rerun-if-changed=libbpf/src/libbpf.h
+cargo:rerun-if-changed=libbpf/src/libbpf_common.h
+cargo:rerun-if-changed=libbpf/src/libbpf_internal.h
+cargo:rerun-if-changed=libbpf/src/libbpf_legacy.h
+cargo:rerun-if-changed=libbpf/src/nlattr.h
+cargo:rerun-if-changed=libbpf/src/skel_internal.h
+cargo:rerun-if-changed=libbpf/src/str_error.h
+cargo:rerun-if-changed=libbpf/src/strset.h
+cargo:rerun-if-changed=libbpf/src/xsk.h
+cargo:rerun-if-changed=libbpf/travis-ci/vmtest/vmlinux.h
+cargo:rerun-if-changed=libbpf/travis-ci/managers/travis_wait.bash
+cargo:rerun-if-changed=libbpf/src/libbpf.map
+cargo:rerun-if-changed=libbpf/README.md
+cargo:rerun-if-changed=libbpf/scripts/coverity.sh
+cargo:rerun-if-changed=libbpf/scripts/sync-kernel.sh
+cargo:rerun-if-changed=libbpf/travis-ci/managers/debian.sh
+cargo:rerun-if-changed=libbpf/travis-ci/managers/ubuntu.sh
+cargo:rerun-if-changed=libbpf/travis-ci/vmtest/build_pahole.sh
+cargo:rerun-if-changed=libbpf/travis-ci/vmtest/build_selftests.sh
+cargo:rerun-if-changed=libbpf/travis-ci/vmtest/checkout_latest_kernel.sh
+cargo:rerun-if-changed=libbpf/travis-ci/vmtest/helpers.sh
+cargo:rerun-if-changed=libbpf/travis-ci/vmtest/mkrootfs.sh
+cargo:rerun-if-changed=libbpf/travis-ci/vmtest/prepare_selftests-4.9.0.sh
+cargo:rerun-if-changed=libbpf/travis-ci/vmtest/prepare_selftests-5.5.0.sh
+cargo:rerun-if-changed=libbpf/travis-ci/vmtest/prepare_selftests.sh
+cargo:rerun-if-changed=libbpf/travis-ci/vmtest/run.sh
+cargo:rerun-if-changed=libbpf/travis-ci/vmtest/run_selftests.sh
+cargo:rerun-if-changed=libbpf/travis-ci/vmtest/run_vmtest.sh
+cargo:rerun-if-changed=libbpf/src/libbpf.pc.template
+cargo:rerun-if-changed=bpfsys-musl.h
+cargo:rerun-if-changed=libbpf_xdp.h
+make: Entering directory '/home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/libbpf/src'
+  MKDIR    staticobjs
+  CC       bpf.o
+  CC       btf.o
+  CC       libbpf.o
+  CC       libbpf_errno.o
+  CC       netlink.o
+  CC       nlattr.o
+  CC       str_error.o
+  CC       libbpf_probes.o
+  CC       bpf_prog_linfo.o
+  CC       xsk.o
+  CC       btf_dump.o
+  CC       hashmap.o
+  CC       ringbuf.o
+  CC       strset.o
+  CC       linker.o
+  CC       gen_loader.o
+  AR       libbpf.a
+  INSTALL  bpf.h libbpf.h btf.h libbpf_common.h libbpf_legacy.h xsk.h bpf_helpers.h bpf_helper_defs.h bpf_tracing.h bpf_endian.h bpf_core_read.h skel_internal.h
+  INSTALL  libbpf.pc
+  INSTALL  libbpf.a
+make: Leaving directory '/home/codenovic/.cargo/registry/src/github.com-1ecc6299db9ec823/bpf-sys-2.3.0/libbpf/src'
